@@ -139,11 +139,11 @@ button .fa-exclamation {
   font-weight: 600;
 }
 
-.main-sec-center {
+/* .main-sec-center { */
   /* display: grid;
   grid-template-rows: 1fr 1fr;
   grid-gap: 20px; */
-}
+/* } */
 
 .main-sec-center-top {
   border-radius: 10px;
