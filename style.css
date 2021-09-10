@@ -1,13 +1,8 @@
-/* * {
-  border: 1px solid red;
-} */
-
 body {
   margin: 0 0 0 100px;
   font-family: sans-serif;
   background-color: rgb(227, 229, 231);
 }
-
 
 header {
   display: flex;
@@ -178,12 +173,10 @@ button .fa-exclamation {
 
 .main-sec-center-top-right {
   border-radius: 10px;
-  /* float: right; */
 }
 
 .main-sec-center-bottom {
   border-radius: 10px;
-  /* width: 210%; */
 }
 
 .main-sec-center div,
