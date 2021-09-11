@@ -147,7 +147,6 @@ button .fa-exclamation {
 .main-sec-center-top-right {
   float: right;
   width: 36%;
-  border-radius: 10px;
   text-align: center;
   padding: 0 20px;
 }
@@ -162,20 +161,15 @@ button .fa-exclamation {
   background-color: rgb(38, 172, 38);
 }
 
-.main-sec-center-top-right {
+.main-sec-center-top-right,
+.main-sec-center-bottom,
+.main-sec-right {
   border-radius: 10px;
 }
 
-.main-sec-center-bottom {
-  border-radius: 10px;
-}
 
 .main-sec-center div,
 .main-sec-center-top div,
 .main-sec-right {
   background-color: white;
-}
-
-.main-sec-right {
-  border-radius: 10px;
 }
