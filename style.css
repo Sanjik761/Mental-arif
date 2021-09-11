@@ -5,12 +5,14 @@ body {
 }
 
 header {
-  display: flex;
   justify-content: space-between;
   height: 50px;
   background-color: white;
 }
 
+header,
+.header-div-id,
+.header-sec-right,
 .header-sec-left {
   display: flex;
 }
@@ -28,10 +30,6 @@ header {
 
 .header-div-menu i {
   margin-right: 20px;
-}
-
-.header-div-id {
-  display: flex;
 }
 
 .header-div-id img {
@@ -61,7 +59,6 @@ header {
 }
 
 .header-sec-right {
-  display: flex;
   justify-content: space-between;
   width: 30vh;
   align-items: center;
@@ -174,11 +171,11 @@ button .fa-exclamation {
 }
 
 .main-sec-center div,
-.main-sec-center-top div {
+.main-sec-center-top div,
+.main-sec-right {
   background-color: white;
 }
 
 .main-sec-right {
-  background-color: white;
   border-radius: 10px;
 }
