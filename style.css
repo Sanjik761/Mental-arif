@@ -17,9 +17,16 @@ header,
   display: flex;
 }
 
+.header-div-menu,
+.header-right-toggle .fa-moon,
+.main-sec-left img,
+.main-sec-center-top-right i,
+.main-sec-center-top-left i {
+  color: white;
+}
+
 .header-div-menu {
   padding: 12px 25px 0 25px;
-  color: white;
   background-color: rgb(156, 23, 156);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -72,7 +79,6 @@ header,
 }
 
 .header-right-toggle .fa-moon {
-  color: white;
   margin-right: 10px;
 }
 
@@ -102,7 +108,6 @@ header,
   float: left;
   width: 180px;
   background-color: white;
-  color: white;
   margin: 5vh 2vh 0 0;
 }
 
@@ -137,6 +142,8 @@ button .fa-exclamation {
   background-color: rgb(156, 157, 158);
 }
 
+.main-sec-center-top-right i,
+.main-sec-center-top-left i,
 .main-sec-center-top-left {
   float: left;
 }
@@ -154,8 +161,6 @@ button .fa-exclamation {
 
 .main-sec-center-top-right i,
 .main-sec-center-top-left i {
-  float: left;
-  color: white;
   padding: 15px 12px;
   font-size: 22px;
   border-radius: 25px;
