@@ -113,7 +113,6 @@ header,
 }
 
 .main-sec-left img {
-  float: left;
   width: 180px;
   margin: 5vh 2vh 0 0;
 }
@@ -126,7 +125,6 @@ header,
 .main-sec-left-text button {
   padding: 5px 10px;
 }
-
 
 button .fa-exclamation,
 .main-sec-left-text button {
@@ -148,6 +146,7 @@ button .fa-exclamation {
   background-color: rgb(156, 157, 158);
 }
 
+.main-sec-left img,
 .main-sec-center-top-right i,
 .main-sec-center-top-left i,
 .main-sec-center-top-left {
