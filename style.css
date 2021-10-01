@@ -34,13 +34,18 @@ header,
   color: white;
 }
 
+.header-div-menu,
+.header-div-id span,
+.main-sec-left-text button span {
+  font-weight: 600;
+}
+
 .header-div-menu {
   padding: 12px 25px 0 25px;
   background-color: rgb(156, 23, 156);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   font-size: 20px;
-  font-weight: 600;
   margin-right: 20px;
 }
 
@@ -55,7 +60,6 @@ header,
 
 .header-div-id span {
   color: rgb(133, 134, 134);
-  font-weight: 600;
   padding-top: 5px;
 } 
 
@@ -136,10 +140,6 @@ button .fa-exclamation {
   padding: 3px 7px;
   margin-right: 6px;
   border-radius: 20px;
-}
-
-.main-sec-left-text button span {
-  font-weight: 600;
 }
 
 .main-sec-center-top {
